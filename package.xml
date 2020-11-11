@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>odom_ackermann</name>
+  <name>akros_odom</name>
   <version>0.0.0</version>
-  <description>The odom_halleffect package</description>
+  <description>Odometry package for the AKROS project</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
