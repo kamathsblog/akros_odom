@@ -1,3 +1,17 @@
+/*
+==========
+ROS node for Odometry of the ROSCar (Jetracer2)
+This code implements the following functionality:
+  > Subscribe to linear speed from Arduino over ROSSerial
+  > Measure current steering angle using servo feedback
+  > Compute current state of the robot using linear speed and steering angle
+  > Publish odometry
+by Aditya Kamath
+adityakamath.github.io
+github.com/adityakamath
+==========
+*/
+
 #include <ros/ros.h>
 #include <std_msgs/Float64.h>
 #include <nav_msgs/Odometry.h>
