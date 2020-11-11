@@ -1,2 +1,2 @@
-# ros_odom_ackermann
-Odometry node measuring linear/angular velocity using a hall-effect sensor and steering servo feedback
+# akros_odom
+Odometry node for different drive platforms - Ackermann, Differential, Holonomic
